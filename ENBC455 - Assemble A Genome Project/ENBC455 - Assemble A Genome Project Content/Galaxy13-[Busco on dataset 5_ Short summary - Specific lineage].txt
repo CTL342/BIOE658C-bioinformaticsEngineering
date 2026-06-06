@@ -1,0 +1,32 @@
+# BUSCO version is: 5.8.0 
+# The lineage dataset is: eukaryota_odb12 (Creation date: 2025-07-01, number of genomes: 456, number of BUSCOs: 129)
+# Summarized benchmarking in BUSCO notation for file /jetstream2/scratch/main/jobs/76482584/working/input.fa
+# BUSCO was run in mode: euk_genome_min
+# Gene predictor used: miniprot
+
+	***** Results: *****
+
+	C:86.0%[S:86.0%,D:0.0%],F:8.5%,M:5.4%,n:129,E:3.6%	   
+	111	Complete BUSCOs (C)	(of which 4 contain internal stop codons)		   
+	111	Complete and single-copy BUSCOs (S)	   
+	0	Complete and duplicated BUSCOs (D)	   
+	11	Fragmented BUSCOs (F)			   
+	7	Missing BUSCOs (M)			   
+	129	Total BUSCO groups searched		   
+
+Assembly Statistics:
+	9128	Number of scaffolds
+	9496	Number of contigs
+	52760646	Total length
+	0.018%	Percent gaps
+	16 KB	Scaffold N50
+	15 KB	Contigs N50
+
+
+Dependencies and versions:
+	hmmsearch: 3.4
+	bbtools: None
+	miniprot_index: 0.14-r265
+	miniprot_align: 0.14-r265
+	python: sys.version_info(major=3, minor=10, micro=16, releaselevel='final', serial=0)
+	busco: 5.8.0
